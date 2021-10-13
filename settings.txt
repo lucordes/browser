@@ -1,0 +1,3 @@
+map(",", "j");
+map("u", "k");
+Hints.characters = 'arstneio';
