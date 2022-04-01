@@ -1,4 +1,27 @@
-Hints.characters = 'arstneio';
+const {
+    aceVimMap,
+    mapkey,
+    imap,
+    imapkey,
+    getClickableElements,
+    vmapkey,
+    map,
+    unmap,
+    unmapAllExcept,
+    vunmap,
+    cmap,
+    addSearchAlias,
+    removeSearchAlias,
+    tabOpenLink,
+    readText,
+    Clipboard,
+    Front,
+    Hints,
+    Visual,
+    RUNTIME
+} = api;
+
+Hints.setCharacters = 'arstneio';
 map('s', 'd');
 map('a', 't');
 map('t', 'R');
