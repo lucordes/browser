@@ -21,7 +21,7 @@ const {
     RUNTIME
 } = api;
 
-Hints.setCharacters = 'arstneio';
+Hints.setCharacters("arstneio");
 map('s', 'd');
 map('a', 't');
 map('t', 'R');
