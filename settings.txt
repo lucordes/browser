@@ -4,40 +4,40 @@
 //});
 
 // an example to replace `T` with `gt`, click `Default mappings` to see how `T` works.
-map('a', 't');
-unmap("t");
-Hints.setCharacters('arstneio');
-map('d','v');
-unmap("v");
+api.map('a', 't');
+api.unmap("t");
+api.Hints.setCharacters('arstneio');
+api.map('d','v');
+api.unmap("v");
 
-map('s','j');
-map('r','h');
-map('f','k');
-map('t','l');
+api.map('s','j');
+api.map('r','h');
+api.map('f','k');
+api.map('t','l');
 
-vmap('s','j');
-vmap('R','h');
-vmap('f','k');
-vmap('T','l');
+api.vmap('s','j');
+api.vmap('R','h');
+api.vmap('f','k');
+api.vmap('T','l');
 
-vmap('S','$');
-vmap('F','0');
-vmap('r','b');
-vmap('t','e');
+api.vmap('S','$');
+api.vmap('F','0');
+api.vmap('r','b');
+api.vmap('t','e');
 
-vunmap("0");
-vunmap("$");
-vunmap("b");
-vunmap("e");
-vunmap("j");
-vunmap("k");
-vunmap("l");
-vunmap("h");
+api.vunmap("0");
+api.vunmap("$");
+api.vunmap("b");
+api.vunmap("e");
+api.vunmap("j");
+api.vunmap("k");
+api.vunmap("l");
+api.vunmap("h");
 
-unmap("j");
-unmap("k");
-unmap("l");
-unmap("h");
+api.unmap("j");
+api.unmap("k");
+api.unmap("l");
+api.unmap("h");
 
 // an example to remove mapkey `Ctrl-i`
 //unmap('<ctrl-i>');
