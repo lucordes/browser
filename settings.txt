@@ -41,7 +41,7 @@ unmap("h");
 
 // an example to remove mapkey `Ctrl-i`
 //unmap('<ctrl-i>');
-
+settings.defaultSearchEngine=("d");
 // set theme
 settings.theme = `
 .sk_theme {
